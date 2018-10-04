@@ -4,20 +4,20 @@ Molden is a package for displaying Molecular Density from the Ab Initio packages
 
 
 It consists of:
-
-Nextcloud 13.0.6
       - g++
-      - make
       - gfortran 
-      - libx11-6 
-      - libx11-dev
+      - libx11-6
       - libgl1-mesa-glx 
-#      - libgl1-mesa-dev 
-#      - build-essential 
-#      - mesa-common-dev 
-#      - libglu1-mesa-dev 
-#      - libxmu-dev
-#      - xutils-dev
+      - build-essential
+
+Discarted packages:
+	  - make
+      - libx11-dev
+	  - libgl1-mesa-dev
+      - mesa-common-dev
+      - libglu1-mesa-dev 
+      - libxmu-dev
+      - xutils-dev
 
 This Molden snap is available in the store for release series 16 (e.g. Ubuntu 16.04). Install via:
 
