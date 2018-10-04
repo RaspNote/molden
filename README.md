@@ -8,7 +8,6 @@ It consists of:
       - gfortran 
       - libx11-6
       - libgl1-mesa-glx 
-      - build-essential
 
 Discarted packages:
 	  - make
@@ -18,6 +17,7 @@ Discarted packages:
       - libglu1-mesa-dev 
       - libxmu-dev
       - xutils-dev
+      - build-essential
 
 This Molden snap is available in the store for release series 16 (e.g. Ubuntu 16.04). Install via:
 
