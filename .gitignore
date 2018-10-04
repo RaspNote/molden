@@ -1,0 +1,5 @@
+*.tar.bz2
+*.swd
+parts/*
+prime/*
+stage/*
