@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Molden
+Icon=${SNAP}/meta/gui/icon.png
+Categories=Graphics;Chem Program;
+Exec=molden
+Terminal=false
