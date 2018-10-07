@@ -15,7 +15,7 @@ parts:
 #    source: ftp://ftp.cmbi.umcn.nl/pub/molgraph/molden/bin/Linux/molden$SNAPCRAFT_PROJECT_VERSION.ubuntu.64.tar.gz
     source: molden5.8.ubuntu.64.tar.gz
     stage-packages: 
-      - g++
+#      - g++
 #      - make
       - gfortran
       - libx11-6
