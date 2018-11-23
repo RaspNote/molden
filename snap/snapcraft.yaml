@@ -1,20 +1,17 @@
 # After registering a name on build.snapcraft.io, commit an uncommented line:
 name: molden
-version: '5.8' # just for humans, typically '1.2+git' or '1.3.2'
+version: '5.9' # just for humans, typically '1.2+git' or '1.3.2'
 summary: Molden is a package for displaying Molecular Density.
 description: Molden is a package for displaying Molecular Density from the Ab Initio packages GAMESS-UK , GAMESS-US and GAUSSIAN and the Semi-Empirical packages Mopac/Ampac, it also supports a number of other programs via the Molden Format. Molden reads all the required information from the GAMESS / GAUSSIAN outputfile.
-grade: devel # must be 'stable' to release into candidate/stable channels
+grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs and slots
-
-#architectures:
-#  - build-on: amd64
 
 parts:
   molden:
     plugin: dump
-#    source: ftp://ftp.cmbi.umcn.nl/pub/molgraph/molden/bin/Linux/molden$SNAPCRAFT_PROJECT_VERSION.ubuntu.64.tar.gz
-    source: molden5.8.ubuntu.64.tar.gz
-    stage-packages: 
+    source: ftp://ftp.cmbi.umcn.nl/pub/molgraph/molden/bin/Linux/molden$SNAPCRAFT_PROJECT_VERSION.full.ubuntu.64.tar.gz
+#    source: molden5.8.ubuntu.64.tar.gz
+    stage-packages:
 #      - g++
 #      - make
       - gfortran
@@ -36,6 +33,8 @@ apps:
       - home
       - opengl
       - x11
+      - unity7
+      - wayland
       - gsettings
 #    desktop: /gui/.desktop
-#    Icon: ${SNAP}/meta/gui/gmolden.png
+#    icon: /meta/gui/gmolden.png
